@@ -7,12 +7,13 @@ const cliente1 = new Cliente("Ricardo", 12345678909);
 
 //criando contas
 const contaCorrenteRicardo = new ContaCorrente(cliente1, 1001);
-//null(colocado como vazio) != undefined(esqueceu de atribui algo/não atribui nada)
+contaCorrenteRicardo.depositar(500);
+contaCorrenteRicardo.sacar(100);
 
 const contaPoupancaRicardo = new ContaPoupanca(50, cliente1, 1001);
+contaPoupancaRicardo.sacar(10);
 
-console.log("Número de contas:" + ContaCorrente.numeroDeContas);
+console.log("Número de contas correntes:" + ContaCorrente.numeroDeContas);
 
-console.log("\nCONTAS APÓS CRIAÇÃO:");
 console.log(contaCorrenteRicardo);
 console.log(contaPoupancaRicardo);
