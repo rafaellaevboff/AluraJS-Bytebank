@@ -6,12 +6,11 @@ export class Cliente{
     constructor(nome, cpf, senha){
         this.nome = nome;
         this._cpf = cpf;
-
         this._senha = senha;
     }
     //essa estrutura fará com que o cpf não possa ser alterado depois de ter sido criado
 
-    autenticar(senha){
+    autenticar(){
         return true;
     }
 }
