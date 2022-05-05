@@ -1,3 +1,3 @@
 # AluraJS-Bytebank
 
-## Projeto simulando um banco, usando orientação à objetos
+## Projeto desenvolvido no curso de JavaScript da Alura simulando um banco, usando orientação à objetos
